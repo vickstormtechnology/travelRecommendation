@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VICKSTORM</title>
+    <link rel="stylesheet" href="travelRecommendation.css" />
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="images/favicon.PNG" alt="Vickstorm Logo">
+            <span>Vickstorm</span>
+        </div>
+        <a href="#home">Home</a>
+        <a href="#about-us">About Us</a>
+        <a href="#contact-us">Contact Us</a>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Enter a destination or keyword">
+            <button onclick="search()">Search</button>
+            <button onclick="clearResults()">Clear</button>
+        </div>
+    </div>
+    <div class="search_content" id="results">
+        <!-- Recommendations will appear here -->
+    </div>
+
+    <!-- this is my homr page -->
+    <div class="content" id="home">
+        <h1>Explore Your Dream Destination</h1>
+        <p>It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.</p>
+        <button>Book Now</button>
+    </div>
+
+
+    <!--ABOUT US-->
+    <div class="content" id="about-us">
+        <h1>About Us</h1>
+        <p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent services/products to our customers. Our mission is to provide the best experience for people traveling to different destinations around the world. Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in putting our customers first and working together to achieve our goals. Feel free to explore our website to learn more about what we offer!</p>
+        
+        <h1>Our Team</h1>
+        <div class="team">
+            <div class="team-member">
+                <h2>John Doe</h2>
+                <p>CEO</p>
+                <p>John is responsible for...</p>
+            </div>
+            <div class="team-member">
+                <h2>Celina Thomas</h2>
+                <p>Team Lead</p>
+                <p>Celina is responsible for...</p>
+            </div>
+            <div class="team-member">
+                <h2>Mike Tysen</h2>
+                <p>Delivery Head</p>
+                <p>Mike is responsible for...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact us -->
+    <div class="content" id="contact">
+        <h1>Contact Us</h1>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="10" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="social-icons">
+        <a href="#"><img src="images/facebook.png" alt="Twitter"></a>
+        <a href="#"><img src="images/twitter.png" alt="Facebook"></a>
+        <a href="#"><img src="images/instagram.jpeg" alt="Instagram"></a>
+        <a href=""><img src="images/youtube.png" alt="YouTube"></a>
+    </div>
+<script src="travel_recommendation.js"></script>
+</body>
+</html>
+
